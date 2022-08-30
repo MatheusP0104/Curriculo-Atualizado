@@ -1,0 +1,384 @@
+body{
+    margin: 0;
+    padding-left: 40px;
+    display: grid;
+    overflow-x: hidden;
+    --cor_sub: #64D1AD;
+    --cor_principal: #1F787B;
+    --cor_barra:#494F56;
+}
+body::-webkit-scrollbar {
+    width: 15px;     
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--cor_barra);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--cor_sub);     
+    border: 3px solid var(--cor_sub); 
+  }
+
+.Faixa{
+    background-color: var(--cor_principal);
+    height: 1000px;
+    width: 300px;
+    position: relative;
+}
+
+.Faixa img{
+    position: absolute;
+    height: 890px;
+    width: 300px;
+    opacity: 0.2;
+}
+.Faixa h1{
+    text-align: center;
+}
+.Faixa h2{
+    text-align: center;
+    color: #ffffff;
+}
+.Geral_P{
+    position: absolute;
+    left: 20px;
+}
+
+#geral_p{
+    color: white;
+}
+
+.Sub_Perfil{
+    background-color: var(--cor_sub);
+    position: relative;
+    right: 40px;
+    width: 340px;
+    height: 60px;
+}
+
+.Perfil{
+    position: absolute;
+    left: 20px;
+}
+
+.Sub_C{
+    background-color: var(--cor_sub);
+    position: relative;
+    right: 40px;
+    width: 340px;
+    height: 60px;
+    top: 270px;
+}
+
+.Competencias{
+    position: absolute;
+    left: 20px;
+}
+
+#python{
+    position: absolute;
+    left: 20px;
+    top: 560px;
+}
+#barra_py{
+    position: absolute;
+    top: 584px;;
+    left: 110px;
+    width: 150px;
+    height: 15px;
+    background-color: var(--cor_barra);
+}
+
+#progress_py{
+    position: relative;
+    bottom: 0px;;
+    left: 0px;
+    width: 80%;
+    height: 15px;
+    background-color: var(--cor_sub);
+}
+
+#mysql{
+    position: absolute;
+    left: 20px;
+    top: 610px;
+}
+
+#barra_my{
+    position: absolute;
+    top: 633px;;
+    left: 110px;
+    width: 150px;
+    height: 15px;
+    background-color: var(--cor_barra);
+}
+
+#progress_my{
+    position: relative;
+    bottom: 0px;;
+    left: 0px;
+    width: 80%;
+    height: 15px;
+    background-color: var(--cor_sub);
+}
+
+#html{
+    position: absolute;
+    left: 20px;
+    top: 654px;
+}
+
+#barra_html{
+    position: absolute;
+    top: 685px;;
+    left: 110px;
+    width: 150px;
+    height: 15px;
+    background-color: var(--cor_barra);
+}
+
+#progress_html{
+    position: relative;
+    bottom: 0px;;
+    left: 0px;
+    width: 20%;
+    height: 15px;
+    background-color: var(--cor_sub);
+}
+
+.Sub_idi{
+    background-color: var(--cor_sub);
+    position: relative;
+    right: 40px;
+    width: 340px;
+    height: 60px;
+    top: 450px;
+}
+
+.Idiomas{
+    position: absolute;
+    left: 20px;
+}
+
+.Geral_idi{
+    position: absolute;
+    left: 20px;
+    top: 835px;
+    
+}
+
+#geral_idi{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 70px;
+    color: white;
+}
+
+#geral_id{
+    color: white;
+}
+
+.Faixa_Deitada{
+    background-color: var(--cor_principal);
+    position: absolute;
+    top: 1000px;
+    width: 1870px;
+    right: 0px;
+    padding-right: 100px;
+}
+
+#contato{
+    color: white;
+    position: relative;
+    left: 150px;
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+#whats{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    bottom: 12px;
+    left: 100px;
+}
+
+#insta{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    bottom: 12px;
+    left: 1800px;
+}
+
+#linke{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    bottom: 12px;
+    left: 1850px;
+}
+
+#git{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    bottom: 12px;
+    left: 1900px;
+}
+
+.SobreMim{
+    text-align: justify;
+    position: absolute;
+    bottom: 850px;
+    right: 950px;
+}
+
+#barra_f_sm{
+    position: absolute;
+    background-color: var(--cor_sub);
+    height: 5px;
+    width: 230ex;
+    bottom: 60px;
+}
+
+#p_sm{
+    position: relative;
+    top: 20px;
+}
+
+.Formacao{
+    text-align: justify;
+    position: absolute;
+    bottom: 593px;
+    left: 365px;
+}
+
+#barra_f_f{
+    position: absolute;
+    background-color: var(--cor_sub);
+    height: 5px;
+    width: 230ex;
+    top: 67px;
+}
+
+#p_f{
+    position: relative;
+    top: 50px;
+}
+
+.Habilidades{
+    text-align: justify;
+    position: absolute;
+    bottom: 405px;
+    left: 365px;
+}
+
+#barra_f_h{
+    position: absolute;
+    background-color: var(--cor_sub);
+    height: 5px;
+    width: 230ex;
+    top: 67px;
+}
+
+#t_equipe{
+    position: absolute;
+    top: 100px;
+}
+
+#barra_equipe{
+    position: absolute;
+    top: 135px;;
+    left: 120px;
+    width: 150px;
+    height: 15px;
+    background-color: var(--cor_barra);
+}
+
+#progress_equipe{
+    position: relative;
+    bottom: 0px;;
+    left: 0px;
+    width: 70%;
+    height: 15px;
+    background-color: var(--cor_sub);
+}
+
+#criatividade{
+    position: absolute;
+    top: 200px;
+}
+
+#barra_cri{
+    position: absolute;
+    top: 223px;
+    left: 120px;
+    width: 150px;
+    height: 15px;
+    background-color: var(--cor_barra);
+}
+
+#progress_cri{
+    position: relative;
+    bottom: 0px;;
+    left: 0px;
+    width: 80%;
+    height: 15px;
+    background-color: var(--cor_sub);
+}
+
+#lideranca{
+    position: absolute;
+    top: 300px;
+}
+
+#barra_lider{
+    position: absolute;
+    top: 323px;
+    left: 120px;
+    width: 150px;
+    height: 15px;
+    background-color: var(--cor_barra);
+}
+
+#progress_lider{
+    position: relative;
+    bottom: 0px;;
+    left: 0px;
+    width: 65%;
+    height: 15px;
+    background-color: var(--cor_sub);
+}
+
+#proatividade{
+    position: absolute;
+    top: 400px;
+}
+
+#barra_pro{
+    position: absolute;
+    top: 423px;
+    left: 120px;
+    width: 150px;
+    height: 15px;
+    background-color: var(--cor_barra);
+}
+
+#progress_pro{
+    position: relative;
+    bottom: 0px;;
+    left: 0px;
+    width: 85%;
+    height: 15px;
+    background-color: var(--cor_sub);
+}
+
